@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  width: 100%;
+  background-image: rgb(52, 58, 64);
+  background-size: cover;
+  background-position: center;
+}
+
+
+.footer-container{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(29, 73, 98);
+  align-items: center;
+}
+  
+.footer-container div{
+  text-align: center;
+  color: white;
+  width: 145px;
+  margin: 20px;
+}
+
+.footer-container div:hover{
+  cursor: pointer;
+}
